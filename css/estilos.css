@@ -18,7 +18,7 @@
 /* Aqui van todos los estilos de lapagina web*/
 
 #topBar {
-	background-color: #202020;
+	background-color: #FFFFFF;
 	height: 150px;
 }
 .botonesWeb {
@@ -50,6 +50,9 @@
 #encabezado img {
 	float: left;
 	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
 }
 #nav {
 	background-color: #00f;
