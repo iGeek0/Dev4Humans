@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+
 #textoSeccion img {
 	margin-right: 6px;
 	margin-top: 5px;
@@ -90,7 +92,6 @@
 
 #seccion h1 {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 18px;
 	text-transform: uppercase;
 	font-style: italic;
 	font-weight: bold;
@@ -281,9 +282,24 @@ background: #008DA2;
     
 
 }
-#SfDescripcion {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
 #blogConstruccion {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#seccion #textoSeccion h2 {
+	text-transform: uppercase;
+	font: normal 2.05em 'homizio_novaregular';
+    color: #27A7F1;
+   
+}
+#descargaSoft .btnNaranja {
+	float: right;
+	margin-right: 50px;
+}
+.titulosWeb {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: x-large;
+}
+.cuerpoWeb {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: medium;
 }

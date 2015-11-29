@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Dev4Humans</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+
+<link href="themes/light/light.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
+<style type="text/css">
+.slider-wrapper {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+    effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
+    slices: 15,                     // For slice animations
+    boxCols: 8,                     // For box animations
+    boxRows: 4,                     // For box animations
+    animSpeed: 500,                 // Slide transition speed
+    pauseTime: 4000,                 // How long each slide will show
+    startSlide: 0,                     // Set starting Slide (0 index)
+    directionNav: true,             // Next & Prev navigation
+    controlNav: true,                 // 1,2,3... navigation
+    controlNavThumbs: true,         // Use thumbnails for Control Nav
+    pauseOnHover: true,             // Stop animation while hovering
+    manualAdvance: false,             // Force manual transitions
+    prevText: 'Prev',                 // Prev directionNav text
+    nextText: 'Next',                 // Next directionNav text
+    randomStart: false,             // Start on a random slide
+    beforeChange: function(){},     // Triggers before a slide transition
+    afterChange: function(){},         // Triggers after a slide transition
+    slideshowEnd: function(){},     // Triggers after all slides have been shown
+    lastSlide: function(){},         // Triggers when last slide is shown
+    afterLoad: function(){}         // Triggers when slider has loaded
+});
+});
+</script>
+</head>
+<body>
+<div id="topBar">
+<!--TEXTO LOGO-->
+
+<div class="ancho960" id="encabezado">
+  <img src="img/logo_real.png" alt="Logotipo">
+  </div>
+</div>
+<div class="ancho960" id="nav">
+<!--barra de navegacion botones-->
+<ul id="navi">
+	 <li><a href="index.html">Inicio</a></li>
+  <li><a href="Cursos.html">Cursos</a></li>
+  <li><a href="Software.html">Software</a></li>
+  <li><a href="About.html">Nosotros</a></li>
+  <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</div>
+</div>
+<div class="slider-wrapper theme-light">
+  <div id="slider" class="nivoSlider">
+    <img src="img/img_principal.png" data-thumb="img/nemo.jpg" alt="" />
+    <a href="http://dev7studios.com"><img src="img/slider4.png" data-thumb="img/toystory.jpg" alt="" title="#htmlcaption" /></a>
+    <img src="img/slider3.png" data-thumb="img/up.jpg" alt="" title="Aprende de manera fácil" />
+    <img src="img/img_principal2.png" data-thumb="img/walle.jpg" alt="" />
+  </div>
+</div>
+
+<div class="ancho960" id="seccion">
+ <div id="textoSeccion">
+   <h1>¿Por donde comenzar?</h1><br>
+    <p><img name="" src="img/code-icon.png" width="100" height="100" alt="">El proceso de aprender a programar nunca a sido una tarea facil, de hecho hay muchas teorias la complejidad del mundo del software por eso, te mostramos aqui las mejores tecnologias para desarollo tanto para escritorio como para dispositivos moviles y web, programacion como para dispositivos moviles como Android, Windows Phone, Apple IOS, y tecnologias como HTML5 CSS, PHP, Ryby y muchas mas.</p>
+  </div>
+  <div id="textoSeccion">
+   <h1 id="centrarTexto">Las mejores plataformas</h1><br>
+    <p>El teléfono inteligente (en inglés: smartphone) es un tipo de teléfono móvil construido sobre una plataforma informática móvil, con mayor capacidad de almacenar datos y realizar actividades, semejante a la de una minicomputadora, y con una mayor conectividad que un teléfono móvil convencional. Por eso la importancia de aprender a desarollar para estas tecnologias.</p>
+   <img name="" src="img/android-nw.png" width="140" height="100" alt="">
+   <img name="" src="img/windows.png" width="140" height="100" alt="">
+   <img name="" src="img/ios.png" width="140" height="100" alt="">
+  </div>
+</div>
+<div class="ancho960" id="seccion2">
+  <div id="textoSeccion2">
+    <h1>Suscribete a nuestro Boletin</h1>
+  Subscribete a nuestro boletin de noticias, para no perderte ninguna actualizacion. <a href="#" class="btnNaranja"> Suscribete aquí</a>
+  </div>
+ 
+</div>
+
+  <div class="ancho960" id="textoPrePie">
+    <h1>"En teoría, la teoría y la práctica son los mismos. En la práctica, no es." </h1>
+    <p>- Yoggi Berra </p>
+  </div>
+</div>
+<div class="ancho960" id="redesSociales"><span class="icon-facebook2"></span><span class="icon-twitter2"></span><span class="icon-youtube"></span></div>
+
+
+<div id="piePagina">
+  <div class="ancho960" id="textoPie">
+    <a href="index.html">Inicio</a> | <a href="Cursos.html">Cursos</a> | <a href="Software.html">Software</a> | <a href="About.html">Nosotros</a> | <a href="#">Contacto</a>
+<p>Todo el contenido de esta pagina, es material recolectado de internet y  es responsabilidad de su autor y de quien la consulta, cualquier duda en cuanto al contenido puede comunicarse con el autor en la seccion contacto.  
+</p>
+  </div>
+</div>
+</body>
+</html>

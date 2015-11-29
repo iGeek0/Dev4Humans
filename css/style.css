@@ -48,3 +48,7 @@
 	content: "\e907";
 }
 
+#descargaSoft #SfDescripcion {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: medium;
+}

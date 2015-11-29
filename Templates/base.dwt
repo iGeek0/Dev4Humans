@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Dev4Humans</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="icon" type="image/gif" href="../animated_favicon1.gif">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<!-- TemplateBeginEditable name="Body" -->
+<div id="topBar">
+  <!--TEXTO LOGO-->
+  <div class="ancho960" id="encabezado"> <img src="../img/logo_real.png" alt="Logotipo"> </div>
+</div>
+<div class="ancho960" id="nav">
+  <!--barra de navegacion botones-->
+  <ul id="navi">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="#">Cursos</a></li>
+    <li><a href="#">Software</a></li>
+    <li><a href="../Software.html">Nosotros</a></li>
+    <li><a href="../contacto.html">Contacto</a></li>
+  </ul>
+</div>
+<!-----------------------TERMINA NAVEGACION------------------------------>
+<!-- TemplateEndEditable -->
+</body>
+<!-------- PIE DE PAGINA ------->
+<div id="piePagina">
+  <div class="ancho960" id="textoPie">
+    <a href="#">Inicio</a> | <a href="#">Cursos</a> | <a href="#">Software</a> | <a href="#">Nosotros</a> | <a href="#">Contacto</a>
+<p>Todo el contenido de esta pagina, es material recolectado de internet y  es responsabilidad de aquien lo usa y lo consulta.<br>
+Todas las publicaciones tiene enlace a la fuente original. 
+</p>
+  </div>
+</div>
+</html>
