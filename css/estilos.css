@@ -11,7 +11,11 @@
 	margin-top: 57px;
 	margin-bottom: 45px;
 }
-
+.fuenteMontserrat{
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	}
 
 #textoSeccion p img {
 	float: left;
@@ -302,4 +306,19 @@ background: #008DA2;
 .cuerpoWeb {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: medium;
+}
+
+.cuerpoWebAlterno {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.titulosWebAlterno {
+	font-family: 'Oswald', sans-serif;
+	font-size: x-large;
+}
+.espaciadoRedes {
+	padding: 5px;
+}
+#redesSociales img {
+	margin: 20px;
 }

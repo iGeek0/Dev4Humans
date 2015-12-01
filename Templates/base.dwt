@@ -6,6 +6,7 @@
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Dev4Humans</title>
 <!-- TemplateEndEditable -->
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link href="../css/reset.css" rel="stylesheet" type="text/css">
 <link href="../css/estilos.css" rel="stylesheet" type="text/css" media="screen">
 <link href="../css/style.css" rel="stylesheet" type="text/css">
@@ -24,9 +25,9 @@
   <!--barra de navegacion botones-->
   <ul id="navi">
     <li><a href="../index.html">Inicio</a></li>
-    <li><a href="#">Cursos</a></li>
-    <li><a href="#">Software</a></li>
-    <li><a href="../Software.html">Nosotros</a></li>
+    <li><a href="../Cursos.html">Cursos</a></li>
+    <li><a href="../Software.html">Software</a></li>
+    <li><a href="../About.html">Nosotros</a></li>
     <li><a href="../contacto.html">Contacto</a></li>
   </ul>
 </div>
@@ -36,7 +37,7 @@
 <!-------- PIE DE PAGINA ------->
 <div id="piePagina">
   <div class="ancho960" id="textoPie">
-    <a href="#">Inicio</a> | <a href="#">Cursos</a> | <a href="#">Software</a> | <a href="#">Nosotros</a> | <a href="#">Contacto</a>
+    <a href="../index.html">Inicio</a> | <a href="../Cursos.html">Cursos</a> | <a href="../Software.html">Software</a> | <a href="../About.html">Nosotros</a> | <a href="../contacto.html">Contacto</a>
 <p>Todo el contenido de esta pagina, es material recolectado de internet y  es responsabilidad de aquien lo usa y lo consulta.<br>
 Todas las publicaciones tiene enlace a la fuente original. 
 </p>
